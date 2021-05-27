@@ -1,1 +1,22 @@
 @import "./template";
+
+.Exp{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    top: 30%;
+}
+
+.flex{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    border: 0.5px rgb(112, 110, 110) solid;
+}
