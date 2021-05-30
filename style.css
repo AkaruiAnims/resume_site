@@ -18,8 +18,8 @@ header {
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("recources/compressed/EFFECTS-min.jpg");
-  background-image: linear-gradient(black, black), url("recources/compressed/EFFECTS-min.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("recources/images/trees.jpg");
+  background-image: linear-gradient(black, black), url("recources/images/trees.jpg");
   background-blend-mode: saturation;
   background-position: center;
   background-size: cover;
@@ -118,8 +118,8 @@ header .smol {
   text-align: center;
   width: 100%;
   height: 23vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("recources/compressed/20191204_111540-min.jpg");
-  background-image: linear-gradient(black, black), url("recources/compressed/20191204_111540-min.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black)), url("recources/images/tulips.jpg");
+  background-image: linear-gradient(black, black), url("recources/images/tulips.jpg");
   background-blend-mode: saturation;
   background-position: center;
   background-size: cover;
