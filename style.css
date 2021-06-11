@@ -170,6 +170,7 @@ header .smol {
 
 #button #Top_Button {
   border-radius: 15px;
+  font-weight: 300;
   width: auto;
   height: auto;
   font-size: 2rem;
@@ -177,6 +178,8 @@ header .smol {
   padding: 25px;
   cursor: pointer;
   color: rgba(0, 121, 143, 0.692);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #button #Top_Button:hover {
