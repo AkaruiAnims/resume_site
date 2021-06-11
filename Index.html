@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="recources/images/favicon.ico">
     <title>Jerpharney Pastoor</title>
 </head>
 <body>
     <header id="Top">
         <i>Jerpharney Pastoor</i><br>
-            <p class="smol"> Software developer </p>
+        <p class="smol"> Software developer </p>
     </header>
 
     <div class="Description">
@@ -29,16 +30,38 @@
 <hr>
     <div class="Second_Image"><i>Contact</i></div>
 
-    <div class="Contact flex">
+    <div class="Contact">
 
-        <div>Picture of me</div>
+        <div><img id="me" src="recources/images/idk.jpg" alt="me"></div>
 
-        <div>Information in a box</div>
+        <div id="info">
+            <form id="form">
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+                
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input id="submit" type="submit" value="Submit">
+            
+            </form>
+        </div>
         
         <div id="button"><a href="#Top"><button id="Top_Button"> &uArr; </button></a></div>
 
     </div>
 <hr>
-    <footer>Social media links</footer>
+    <footer>
+        <ul class="Links flex">
+            <li class="Link"><a href="https://github.com/AkaruiAnims"><img class="sm" src="recources/images/039-github.svg" alt="Github"></a></li>
+            <li class="Link"><a href="https://www.linkedin.com/in/jerpharney-pastoor-73b53a199/"><img class="sm" src="recources/images/031-linkedin.svg" alt="LinkedIn"></a></li>
+            <li class="Link"><a href="https://twitter.com/Jerpharney"><img class="sm" src="recources/images/013-twitter-1.svg" alt="Twitter"></a></li>
+        </ul>
+    </footer>
 </body>
-</html>
+</htmla

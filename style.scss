@@ -20,3 +20,68 @@ li{
 hr{
     border: 0.5px rgb(112, 110, 110) solid;
 }
+
+#info{
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    transition: 5ms;
+    
+    i{
+        padding: auto;
+        margin: auto;
+    }
+        &:hover{
+            box-shadow: 0 2px 3px rgba(0, 50, 73, 0.842);
+            bottom: 2px;
+        }
+}
+
+#me{
+    width: 69%;
+    height: 69%;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 50, 73, 0.842);
+    transition: 5ms;
+
+    &:hover{
+            box-shadow: 0 2px 3px rgba(0, 50, 73, 0.842);
+            bottom: 2px;
+        }
+}
+
+.sm{
+    height: 35%;
+    width: 35%;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted rgb(163, 163, 163);
+    transition: 1s;
+    background-color: transparent;
+        &:focus{
+             border-bottom: 1px solid rgb(53, 53, 53);
+        }
+}
+
+#subject{
+    @extend input;
+    border-left: 0.5px dotted rgb(163, 163, 163);
+    padding: 1.5px;
+    &:focus{
+        border-left: 0.5px solid rgb(53, 53, 53);
+    }
+}
+
+#submit{
+    border-bottom: 0.5px dotted rgb(56, 58, 58);
+    border-radius: 5px;
+    margin: 1px;
+    cursor: pointer;
+        &:hover{
+            border: 1px solid rgb(167, 193, 196);
+        }
+}
