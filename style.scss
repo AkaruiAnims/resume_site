@@ -26,6 +26,7 @@ hr{
     height: auto;
     background-color: whitesmoke;
     border-radius: 5px;
+    text-align: left;
     transition: 5ms;
     
     i{
@@ -42,7 +43,6 @@ hr{
     width: 69%;
     height: 69%;
     border-radius: 5px;
-    box-shadow: 0 2px 3px rgba(0, 50, 73, 0.842);
     transition: 5ms;
 
     &:hover{

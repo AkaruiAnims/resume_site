@@ -361,6 +361,7 @@ hr {
   height: auto;
   background-color: whitesmoke;
   border-radius: 5px;
+  text-align: left;
   -webkit-transition: 5ms;
   transition: 5ms;
 }
@@ -380,8 +381,6 @@ hr {
   width: 69%;
   height: 69%;
   border-radius: 5px;
-  -webkit-box-shadow: 0 2px 3px rgba(0, 50, 73, 0.842);
-          box-shadow: 0 2px 3px rgba(0, 50, 73, 0.842);
   -webkit-transition: 5ms;
   transition: 5ms;
 }
