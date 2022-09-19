@@ -2,11 +2,11 @@ const NavBar = ({ prop }) => {
 
   return (
     <nav>
-        <ol>
+        <ul>
             <li>
               test
             </li>
-        </ol>
+        </ul>
     </nav>
   )
 }
