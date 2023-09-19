@@ -1,0 +1,54 @@
+// Varibales
+    $primayColor: #EEE0C9 ;
+    $backgroundColor: #F1F0E8;
+    $secondaryColor: #ADC4CE;
+    $teritaryColor: #96B6C5;
+    $borderOutline: #c0a9a9;
+    $fontColor: rgb(43, 43, 43);
+
+// Style    
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(220, 220, 220);
+    box-sizing: border-box;
+    width: 100%;
+    color: $fontColor;
+}
+
+
+
+@mixin makeGap(){
+    margin: 5px 0px;
+}
+
+#nav {
+    background-color: $secondaryColor;
+    height: 10vh;
+}
+
+#body {
+
+    background-color: $backgroundColor;
+    display: flexbox;
+    height: 75vh;
+    padding: 15px;
+    
+    
+    div {
+        border: 3px $borderOutline dashed;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: $primayColor;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+#footer {
+
+    background-color: $teritaryColor;
+    height: 15vh;
+
+}

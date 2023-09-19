@@ -1,5 +1,8 @@
-.background {
-  background-color: blue;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-/*# sourceMappingURL=index.css.map */
+.background {
+  background-color: beige;
+}/*# sourceMappingURL=index.css.map */
