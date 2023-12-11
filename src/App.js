@@ -1,8 +1,8 @@
-// Entry point for index.html i suppose 
-
+// eslint-disable-next-line
+import index from './index.css'
 import NavBar from './components/nav'
 
-// Note: make it an aestetic website with rain and lofi themes
+// NOTE: make it an aestetic website with rain and lofi themes
 
 function App() {
   return (
